@@ -1,0 +1,16 @@
+//Did this one in the Git Bash terminal, rather than Windows cmd
+cd ..
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+touch readme.md
+git status
+git add .
+git status
+git commit -m "It's the GitHub repo assignment!"
+touch GitHubRepoAssignment.txt
+git remote add origin https://github.com/ngm84/GitHubRepoAssignment.git
+git push -u origin master
+
+
+
